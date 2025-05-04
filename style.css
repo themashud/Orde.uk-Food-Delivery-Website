@@ -151,13 +151,14 @@ body {
     margin: auto;
     padding-top: 20px;
     margin-top: 35px;
+    margin-bottom: 35px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #03081F;
     color: white;
-    background-image: url("/assests/Untitled-1\ 1.png");
+    background-image: url("../assests/Untitled-1\ 1.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 50%;
@@ -259,7 +260,7 @@ body {
 
 .hero-right .step {
     position: relative;
-    background-image: url("/assests/Group-3.png");
+    background-image: url("../assests/Group-3.png");
     position: relative;
     background-color: white;
     padding: 5px 24px;
@@ -293,84 +294,84 @@ body {
     font-size: xx-small;
 }
 
-@media screen and (max-width: 768px) {
-    .nav1, .nav2 {
-      flex-direction: column;
-      height: auto;
-      gap: 10px;
-      text-align: center;
-    }
-  
-    .nav2 ul {
-      flex-direction: column;
-      gap: 20px;
-    }
-  
-    .hero-section {
-      flex-direction: column;
-      padding: 20px;
-      background-size: cover;
-    }
-  
-    .hero-left, .hero-right {
-      width: 100%;
-      left: 0;
-      text-align: center;
-    }
-  
-    .hero-left h2 {
-      font-size: 30px;
-      line-height: 1.1;
-    }
-  
-    .hero-left .search-bar {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .hero-left .search-bar input {
-      width: 80%;
-      margin-bottom: 10px;
-      border-radius: 20px;
-    }
-  
-    .hero-left .search-bar button {
-      width: 80%;
-      padding: 10px 0;
-      right: 0;
-    }
-  
-    .yellow-shape {
-      display: none; /* Hide yellow background on small screens */
-    }
-  
-    .hero-right {
-      margin-top: 20px;
-      justify-content: center;
-    }
-  
-    .hero-right img {
-      width: 70%;
-    }
-  
-    .order-steps {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 10px;
-    }
-  
-    .hero-right .step {
-      width: 80%;
-      margin: 10px auto;
-      text-align: center;
-    }
-  
-    .hero-right .order-steps > :first-child,
-    .hero-right .order-steps > :nth-child(2),
-    .hero-right .order-steps > :nth-child(3) {
-      right: 0;
-      top: 0;
-    }
-  }
-  
+.deals-section{
+    position: relative;
+    width: 90vw;
+    margin: auto;
+    height: 390px;
+    margin-bottom: 20px;
+}
+
+.deals-section nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.deals-section nav h2{
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+    left: 20px;
+}
+
+.deals-section ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    list-style: none;
+    right: 20px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.deals-section ul li:nth-child(3){
+    border: 1px solid #FC8A06;
+    padding: 14px 19px;
+    font-weight: 700;
+    color: #FC8A06;
+    border-radius: 30px;
+}
+
+
+
+.deals-section .food-bg{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.deals-section .food-bg .box{
+    border-radius: 20px;
+}
+
+.deals-section .food-bg .box1{
+    background-image: url("../assests/food-bg-1.png");
+    width: 496px;
+    height: 300px;
+    background-position: cover cover;
+    background-repeat: no-repeat;
+    
+}
+.deals-section .food-bg .box2{
+    background-image: url("../assests/food-bg-2.png");
+    width: 496px;
+    height: 300px;
+    background-position: cover cover;
+    background-repeat: no-repeat;
+}
+.deals-section .food-bg .box3{
+    background-image: url("../assests/food-bg-3.png");
+    width: 496px;
+    height: 300px;
+    background-position: cover cover;
+    background-repeat: no-repeat;
+   
+}
